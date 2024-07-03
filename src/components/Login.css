@@ -1,0 +1,134 @@
+.login-container {
+  display: flex;
+  position: relative;
+  width: 428px;
+  height: 900px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  width: 368px;
+  height: 50px;
+  left: 26px;
+  background: #3F22F2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 16px 0;
+  border: none;
+}
+
+.input-group {
+  width: 368px;
+  height: 50px;
+  left: 26px;
+  background: rgba(63, 34, 242, 0.3);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: none;
+  margin: 16px 0;
+}
+
+.email {
+  top: 404px;
+}
+
+.password {
+  top: 486px;
+}
+
+.input-group input{
+  border: none;
+  background: transparent;
+  outline: none;
+  margin: 16px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(36, 0, 255, 0.5);
+}
+
+.reset-password {
+  width: 121px;
+  height: 18px;
+  left: 153px;
+  top: 779px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3F22F2;
+  cursor: pointer;
+}
+
+h2 {
+  width: auto;
+  height: 39px;
+  left: 171px;
+  top: 146px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #3F22F2;
+}
+
+
+
+.nfc-login-button {
+  width: 368px;
+  height: 50px;
+  left: 26px;
+  background: #3F22F2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 16px 0;
+  border: none;
+}
+
+.qr-code {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 30px;
+}
+
+th {
+  border: solid 1px black;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
